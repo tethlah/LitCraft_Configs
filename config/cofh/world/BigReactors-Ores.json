@@ -1,0 +1,20 @@
+{
+    "yellorite": {
+        "template": "normal",
+        "block": {
+            "name": "BigReactors:YelloriteOre",
+            "metadata": 0
+        },
+        "clusterSize": 20,
+        "numClusters": 18,
+        "meanHeight": 6,
+        "maxVariance": 6,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            6
+        ]
+    }
+}
