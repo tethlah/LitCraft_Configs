@@ -3715,6 +3715,8 @@ BuildCraft|Core:engineBlock:2, Combustion Engine
 BuildCraft|Core:engineBlock:3, Creative Engine
 BuildCraft|Core:markerBlock, Land Mark
 BuildCraft|Core:pathMarkerBlock, Path Mark
+BuildCraft|Transport:filteredBufferBlock, Filtered Buffer
+BuildCraft|Transport:pipeBlock, tile.pipeBlock.name
 BuildCraft|Silicon:laserBlock, Laser
 BuildCraft|Silicon:laserTableBlock:0, Assembly Table
 BuildCraft|Silicon:laserTableBlock:1, Advanced Crafting Table
@@ -3723,20 +3725,9 @@ BuildCraft|Silicon:laserTableBlock:3, Charging Table
 BuildCraft|Silicon:laserTableBlock:4, Programming Table
 BuildCraft|Silicon:laserTableBlock:5, Stamping Table
 BuildCraft|Silicon:packagerBlock, Recipe Packager
-BuildCraft|Transport:filteredBufferBlock, Filtered Buffer
-BuildCraft|Transport:pipeBlock, tile.pipeBlock.name
-BuildCraft|Builders:machineBlock, Quarry
-BuildCraft|Builders:fillerBlock, Filler
-BuildCraft|Builders:frameBlock, Frame
-BuildCraft|Builders:builderBlock, Builder Block
-BuildCraft|Builders:architectBlock, Architect Table
-BuildCraft|Builders:libraryBlock, Electronic Library
-BuildCraft|Builders:constructionMarkerBlock, Construction Mark
 BuildCraft|Energy:blockOil, Oil
 BuildCraft|Energy:blockFuel, Fuel
 BuildCraft|Energy:blockRedPlasma, tile.blockRedPlasma.name
-BuildCraft|Robotics:zonePlan, Zone Planner
-BuildCraft|Robotics:requester, Requester
 BuildCraft|Factory:miningWellBlock, Mining Well
 BuildCraft|Factory:plainPipeBlock, Mining Pipe
 BuildCraft|Factory:autoWorkbenchBlock, Auto Workbench
@@ -3745,6 +3736,15 @@ BuildCraft|Factory:pumpBlock, Pump
 BuildCraft|Factory:floodGateBlock, Flood Gate
 BuildCraft|Factory:refineryBlock, Refinery
 BuildCraft|Factory:blockHopper, Chute
+BuildCraft|Builders:machineBlock, Quarry
+BuildCraft|Builders:fillerBlock, Filler
+BuildCraft|Builders:frameBlock, Frame
+BuildCraft|Builders:builderBlock, Builder Block
+BuildCraft|Builders:architectBlock, Architect Table
+BuildCraft|Builders:libraryBlock, Electronic Library
+BuildCraft|Builders:constructionMarkerBlock, Construction Mark
+BuildCraft|Robotics:zonePlan, Zone Planner
+BuildCraft|Robotics:requester, Requester
 Railcraft:fluid.creosote, Creosote
 Railcraft:fluid.steam, Steam
 Railcraft:residual.heat, Residual Heat
@@ -3991,11 +3991,6 @@ Railcraft:ore:2, Dark Diamond Ore
 Railcraft:ore:3, Dark Emerald Ore
 Railcraft:ore:4, Dark Lapis Lazuli Ore
 Railcraft:ore:5, Firestone Ore
-Railcraft:ore:7, Poor Iron Ore
-Railcraft:ore:8, Poor Gold Ore
-Railcraft:ore:9, Poor Copper Ore
-Railcraft:ore:10, Poor Tin Ore
-Railcraft:ore:11, Poor Lead Ore
 Railcraft:worldlogic, Saltpeter Ore Spawner
 Railcraft:firestone.recharge, Recharging Firestone
 Railcraft:frame, Wire Support Frame
@@ -5769,7 +5764,7 @@ extracells:vibrantchamberfluid, Fluid Vibration Chamber
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quite Expensive Decoration)
+ExtraUtilities:endConstructor:0, QED (Quite Elegant Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -6626,40 +6621,40 @@ ExtraTiC:blockFunStuff:0, Fairy Block
 ExtraTiC:blockFunStuff:1, Pokefennium Block
 ExtraTiC:blockFunStuff:2, RedAurum Block
 FlatSigns:blockFlatSign, Sign
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:platform, Ethereal Platform
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
 ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
 ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:golemConnector, Golem Connector
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
 ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:repairer, Thaumic Restorer
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
 ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
 ThaumicTinkerer:bedrockPortal, Bedrock Portal
 ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:golemConnector, Golem Connector
 ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -7197,7 +7192,6 @@ OpenBlocks:projector, Height Map Projector
 OpenBlocks:drawingtable, Drawing Table
 OpenBlocks:sky:0, Sky Block
 OpenBlocks:sky:1, Sky Block
-OpenBlocks:xpshower, XP Shower
 OpenBlocks:goldenegg, Golden Egg
 OpenBlocks:scaffolding, Scaffolding
 OpenComputers:accessPoint:0, §cAccess Point§7
@@ -8552,11 +8546,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Dark Diamond Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Dark Emerald Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Dark Lapis Lazuli Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Firestone Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Poor Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Poor Gold Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Poor Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Poor Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Poor Lead Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Aluminum
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Aluminum
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Aluminum
@@ -12213,16 +12202,6 @@ BuildCraft|Core:ironGearItem, Iron Gear
 BuildCraft|Core:goldGearItem, Gold Gear
 BuildCraft|Core:diamondGearItem, Diamond Gear
 BuildCraft|Core:paintbrush, Paintbrush
-BuildCraft|Silicon:redstoneChipset:0, Redstone Chipset
-BuildCraft|Silicon:redstoneChipset:1, Iron Chipset
-BuildCraft|Silicon:redstoneChipset:2, Golden Chipset
-BuildCraft|Silicon:redstoneChipset:3, Diamond Chipset
-BuildCraft|Silicon:redstoneChipset:4, Pulsating Chipset
-BuildCraft|Silicon:redstoneChipset:5, Quartz Chipset
-BuildCraft|Silicon:redstoneChipset:6, Redstone Comp Chipset
-BuildCraft|Silicon:redstoneChipset:7, Emerald Chipset
-BuildCraft|Silicon:package, Package
-BuildCraft|Silicon:redstoneCrystal, Redstone Crystal
 BuildCraft|Transport:pipeWaterproof, Pipe Sealant
 BuildCraft|Transport:item.buildcraftPipe.pipeitemswood:0, Wooden Transport Pipe
 BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald:0, Emerald Transport Pipe
@@ -12303,10 +12282,20 @@ BuildCraft|Transport:pipeLens:32, Lens (Clear)
 BuildCraft|Transport:pipeLens:33, Filter (Clear)
 BuildCraft|Transport:pipePowerAdapter, item.pipePowerAdapter.name
 BuildCraft|Transport:gateCopier, Gate Copier
-BuildCraft|Builders:templateItem, Template
-BuildCraft|Builders:blueprintItem, Blueprint
+BuildCraft|Silicon:redstoneChipset:0, Redstone Chipset
+BuildCraft|Silicon:redstoneChipset:1, Iron Chipset
+BuildCraft|Silicon:redstoneChipset:2, Golden Chipset
+BuildCraft|Silicon:redstoneChipset:3, Diamond Chipset
+BuildCraft|Silicon:redstoneChipset:4, Pulsating Chipset
+BuildCraft|Silicon:redstoneChipset:5, Quartz Chipset
+BuildCraft|Silicon:redstoneChipset:6, Redstone Comp Chipset
+BuildCraft|Silicon:redstoneChipset:7, Emerald Chipset
+BuildCraft|Silicon:package, Package
+BuildCraft|Silicon:redstoneCrystal, Redstone Crystal
 BuildCraft|Energy:bucketOil, Oil Bucket
 BuildCraft|Energy:bucketFuel, Fuel Bucket
+BuildCraft|Builders:templateItem, Template
+BuildCraft|Builders:blueprintItem, Blueprint
 BuildCraft|Robotics:robot, Robot
 BuildCraft|Robotics:robotStation, item.robotStation.name
 BuildCraft|Robotics:redstone_board, Redstone Board
@@ -19130,11 +19119,11 @@ ThermalDynamics:cover:0, Green Portuguese Pavement Slab Cover
 ThermalDynamics:cover:0, Water Spring Cover
 ThermalDynamics:cover:0, Oil Spring Cover
 ThermalDynamics:cover:0, tile.buildToolBlock.name Cover
-ThermalDynamics:cover:0, Frame Cover
 ThermalDynamics:cover:0, Oil Cover
 ThermalDynamics:cover:0, Fuel Cover
 ThermalDynamics:cover:0, tile.blockRedPlasma.name Cover
 ThermalDynamics:cover:0, Mining Pipe Cover
+ThermalDynamics:cover:0, Frame Cover
 ThermalDynamics:cover:0, Creosote Cover
 ThermalDynamics:cover:0, Steam Cover
 ThermalDynamics:cover:0, Block of Coal Coke Cover
@@ -19259,11 +19248,6 @@ ThermalDynamics:cover:0, Dark Diamond Ore Cover
 ThermalDynamics:cover:0, Dark Emerald Ore Cover
 ThermalDynamics:cover:0, Dark Lapis Lazuli Ore Cover
 ThermalDynamics:cover:0, Firestone Ore Cover
-ThermalDynamics:cover:0, Poor Iron Ore Cover
-ThermalDynamics:cover:0, Poor Gold Ore Cover
-ThermalDynamics:cover:0, Poor Copper Ore Cover
-ThermalDynamics:cover:0, Poor Tin Ore Cover
-ThermalDynamics:cover:0, Poor Lead Ore Cover
 ThermalDynamics:cover:0, Saltpeter Ore Spawner Cover
 ThermalDynamics:cover:0, Wire Support Frame Cover
 ThermalDynamics:cover:0, Block of Aluminum Cover
@@ -21464,22 +21448,22 @@ ThermalDynamics:cover:0, Molten Bedrockium Cover
 ThermalDynamics:cover:0, Fairy Block Cover
 ThermalDynamics:cover:0, Pokefennium Block Cover
 ThermalDynamics:cover:0, RedAurum Block Cover
-ThermalDynamics:cover:0, tile.nitorGas.name Cover
 ThermalDynamics:cover:0, Smokey Quartz Slab Cover
 ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Ordo Imbued Fire Cover
-ThermalDynamics:cover:0, Perditio Imbued Fire Cover
-ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
 ThermalDynamics:cover:0, Ignis Imbued Fire Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
-ThermalDynamics:cover:0, tile.gaseousLight.name Cover
-ThermalDynamics:cover:0, Terra Imbued Fire Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
+ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, Terra Imbued Fire Cover
+ThermalDynamics:cover:0, Ordo Imbued Fire Cover
+ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
 ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
+ThermalDynamics:cover:0, tile.nitorGas.name Cover
 ThermalDynamics:cover:0, Bedrock Portal Cover
 ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
 ThermalDynamics:cover:0, Thaumic Cake Cover
 ThermalDynamics:cover:0, Umbral Rose Cover
 ThermalDynamics:cover:0, Nether Star Block Cover
