@@ -1,0 +1,39 @@
+COFH Oregen changes:
+- Disabled default oregen for all mods
+- Used COFH to control ore distribution and generation
+- Disabled duplicate oregen from different mods so only one of that ore now generates
+- Removed poor ores from Railcraft
+- Made Aroma Mining Dim start at y=240 instead of y=80
+- Tripled oregen in Aroma Mining Dim vs Overworld
+
+Removed the following rare ores from overworld (they are now mining world only):
+- Ferrous
+- Shiny
+- Quartz
+- Charged Quartz
+- Yellorite
+- Osmium
+
+Mod config changes:
+- Extended Aroma backup to every 60 minutes from 30
+- Extended Aroma backup to keep 50 backups from 20
+- Disabled In-Game Wiki Mod support until we see a use for it.
+- Disabled all update checks so users are not spammed by messages.
+- Changed Big Reactors to use Obsidian for glass and Steel instead of iron.
+- ChickenChunks gives 1000 chunkload max
+- Disabled Experience Crops in MagicalCrops
+- Disabled imbued fire from ThaumicTinkerer
+- Changed OpenBlocks elevator to pass through 25 blocks from 4
+- Changed OpenBlocks elevator to search 120 blocks from 20
+
+Added the following as seal-able see through blocks for Galacticraft (40 blocks in total):
+- Thaumcraft Warded Glass
+- Thermal Expansion all metal bordered glass
+- EnderIO Hardened Conduit Facades
+- EnderIO all Fused Quartz glass
+- ExtraUtilities all metal bordered glass
+- TConstruct all Stained Clear Glass
+- MineFactoryReloaded all Stained Glass
+
+- Removed all glass panes as seal-able for Galacticraft as they wouldn't actually be strong enough to hold the pressure.
+
